@@ -127,9 +127,11 @@ project/
 1. Upload your `.txt` novels to `/content/novel/`
 2. Run the notebooks in your order.
 3. Ensure LLM API keys are set via `os.environ` or manually passed in prompts (e.g., Gemini, OpenAI). Original API has been deleted.
+4. Ensure up to date LLM model, such as "gemini-2.0-flash".
 
 ### 🔐 API Keys Format
 
 ```python
 os.environ["OPENAI_API_KEY"] = "your-key"
 ```
+GEMINI_MODEL = "gemini-2.0-flash"
