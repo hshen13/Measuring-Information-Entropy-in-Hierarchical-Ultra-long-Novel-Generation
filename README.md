@@ -126,7 +126,7 @@ project/
 
 1. Upload your `.txt` novels to `/content/novel/`
 2. Run the notebooks in your order.
-3. Ensure LLM API keys are set via `os.environ` or manually passed in prompts (e.g., Gemini, OpenAI)
+3. Ensure LLM API keys are set via `os.environ` or manually passed in prompts (e.g., Gemini, OpenAI). Original API has been deleted.
 
 ### 🔐 API Keys Format
 
